@@ -1,0 +1,11 @@
+<br><br>
+<h3>{{drtList.myTitle}}</h3>
+<ol>
+  <li ng-repeat="item in drtList.items">
+    <b>Name</b>: {{item.name}}
+    <div><b>ShortName</b>: {{item.short_name}}</div>
+    <div><b>Description</b>: {{item.description}}</div>
+    <button ng-click="drtList.onRemove({index: $index});">Remove Item</button>
+    <br/>
+  </li>
+</ol>
