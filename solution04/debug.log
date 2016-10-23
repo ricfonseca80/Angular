@@ -1,0 +1,3 @@
+[1023/224148:ERROR:process_reader_win.cc(233)] ReadMemory at 0x4f6000 of 40960 bytes failed: Somente uma parte de um pedido ReadProcessMemory ou WriteProcessMemory foi concluída. (0x12B)
+[1023/224148:ERROR:crash_report_exception_handler.cc(98)] WriteEverything failed
+[1023/224148:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: Tentou-se acessar um processo de saída.  (0xc000010a)
