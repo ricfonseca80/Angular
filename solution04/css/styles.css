@@ -24,6 +24,12 @@ li[ui-sref]:hover {
 
 .voando {
   float: left;
+}
 
+.items{
+  color: red;
+}
 
+.cotegories {
+  color: blue;
 }
