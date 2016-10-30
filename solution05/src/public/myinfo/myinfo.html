@@ -1,0 +1,12 @@
+<h1>My Information</h1>
+
+<div>
+  firstname: {{ MyInfoCtrl.reg.user.firstname}} <br>
+  lastname: {{ MyInfoCtrl.reg.user.lastname}} <br>
+  Email: {{ MyInfoCtrl.reg.user.email}} <br>
+  Phone: {{ MyInfoCtrl.reg.user.phone }} <br>
+  Menu Item Name: {{ MyInfoCtrl.reg.user.menuItemName }} <br>
+  Menu Item Description: {{ MyInfoCtrl.reg.user.menuItemDescription }} <br>
+  Picture: <br>
+  <img class="img-responsive" width="250" height="150" ng-src="{{MyInfoCtrl.basePath}}/images/{{MyInfoCtrl.reg.user.menuItemShortName}}.jpg" alt="{{MyInfoCtrl.reg.user.menuItemName}}">
+</div>
